@@ -13,11 +13,6 @@ h1 {
     text-align: center;
     background-color: #0a1520;
 }
-div.header p {
-    text-align: center;
-    color: #f2c4b0;
-    font-size: 16px;
-}
 
 h2 {
     font-family: "Georgia", serif;
@@ -54,6 +49,9 @@ a {
 div.header {
     background-color: #0a1520;
     text-align: center;
+}
+div.header p {
+    text-align: center !important;
 }
 
 div.navbar {
