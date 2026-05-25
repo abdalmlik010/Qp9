@@ -53,11 +53,10 @@ div.header {
 
 div.navbar {
     background-color: #112233;
-    text-align: right;
+    text-align: center;
 }
 
 div.navbar a {
-    float: right;
     background-color: #c9a84c;
     color: #0a1520;
     font-family: "Georgia", serif;
