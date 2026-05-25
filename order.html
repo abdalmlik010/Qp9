@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>مذاق الطبيعة المبتكر - تجهيز طلبكِ</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<h1>&#127807; مذاق الطبيعة المبتكر &#127807;</h1>
+<p>مطعمكِ الصحي الأول في مدينة الطائف</p>
+</div>
+
+<div class="navbar">
+<a href="branches.html">أين تجدنا</a>
+<a href="calc.html">الفاتورة الفورية</a>
+<a href="check.html">تأكيد بياناتكِ</a>
+<a href="order.html">تجهيز طلبكِ</a>
+<a href="menu.html">أطباقنا</a>
+<a href="about.html">قصتنا</a>
+<a href="index.html">بوابتنا</a>
+<div class="clear"></div>
+</div>
+
+<div class="content">
+
+<h2>&#128230; تجهيز طلب التوصيل</h2>
+<p>أهلاً بكِ في خدمة التوصيل المنزلي. يُرجى تعبئة النموذج التالي بدقة حتى تصلكِ طلباتكِ في أسرع وقت ممكن.</p>
+
+<div class="welcome-box">
+<p>&#128338; متوسط وقت التوصيل داخل أحياء الطائف: من 30 إلى 45 دقيقة فقط.</p>
+<p>&#128222; فريق خدمة التوصيل متاح من الساعة 7 صباحاً حتى 11 مساءً.</p>
+</div>
+
+<div class="about-box">
+
+<form>
+
+<h3>&#128100; بيانات العميلة</h3>
+
+<p>
+<span class="gold-label">الاسم الكريم: </span>
+<br>
+<input type="text" name="customer_name" size="40">
+</p>
+
+<p>
+<span class="gold-label">كلمة المرور للحساب: </span>
+<br>
+<input type="password" name="customer_password" size="40">
+</p>
+
+<p>
+<span class="gold-label">رقم الجوال للتواصل: </span>
+<br>
+<input type="text" name="customer_phone" size="40">
+</p>
+
+<h3>&#128205; بيانات التوصيل داخل الطائف</h3>
+
+<p>
+<span class="gold-label">اختاري حي التوصيل في مدينة الطائف: </span>
+<br>
+<select name="delivery_area">
+<option value="">-- اختاري الحي --</option>
+<option value="shahar">حي شهار</option>
+<option value="hawiya">حي الحوية</option>
+<option value="sidad">حي السداد</option>
+<option value="qurwa">حي قروى</option>
+</select>
+</p>
+
+<p>
+<span class="gold-label">تفاصيل العنوان الكاملة داخل الحي المختار: </span>
+<br>
+<textarea name="address_details" rows="5" cols="45">اكتبي هنا اسم الشارع ورقم المنزل أو المبنى وأي تفاصيل إضافية تساعد المندوبة في الوصول إليكِ بسهولة...</textarea>
+</p>
+
+<h3>&#127859; تفاصيل الطلب</h3>
+
+<p>
+<span class="gold-label">اختاري الوجبة الرئيسية: </span>
+<br>
+<select name="main_meal">
+<option value="">-- اختاري الوجبة --</option>
+<option value="chicken_shahar">دجاج الشهار المشوي بالكركم - 55 ريال</option>
+<option value="fish_sidad">سمك السداد المطهو بالبخار - 65 ريال</option>
+<option value="quinoa_qurwa">كينوا قروى بالخضار الموسمية - 48 ريال</option>
+<option value="lentil_hawiya">عدس الحوية الأحمر بالليمون - 38 ريال</option>
+<option value="turkey_shahar">صدر ديك رومي شهار بالأعشاب - 60 ريال</option>
+</select>
+</p>
+
+<p>
+<span class="gold-label">اختاري السلطة أو المقبل: </span>
+<br>
+<select name="starter">
+<option value="">-- اختاري السلطة --</option>
+<option value="royal_salad">سلطة الطائف الملكية - 32 ريال</option>
+<option value="hummus_qurwa">حمص قروى الكريمي - 22 ريال</option>
+<option value="taboula_sidad">تبولة السداد بالخضار الطازجة - 26 ريال</option>
+<option value="no_starter">بدون مقبل</option>
+</select>
+</p>
+
+<p>
+<span class="gold-label">اختاري المشروب: </span>
+<br>
+<select name="drink">
+<option value="">-- اختاري المشروب --</option>
+<option value="pomegranate">عصير الرمان الطائفي الطازج - 20 ريال</option>
+<option value="laban_mint">لبن الشهار بالنعناع الجبلي - 15 ريال</option>
+<option value="green_smoothie">سموذي الخضار الأخضر - 25 ريال</option>
+<option value="no_drink">بدون مشروب</option>
+</select>
+</p>
+
+<p>
+<span class="gold-label">ملاحظات خاصة أو طلبات إضافية: </span>
+<br>
+<textarea name="special_notes" rows="4" cols="45">مثال: بدون بصل، أريد الصلصة على الجانب، نظام كيتو، حساسية من المكسرات...</textarea>
+</p>
+
+<h3>&#128179; طريقة الدفع المفضلة</h3>
+
+<p>
+<select name="payment_method">
+<option value="">-- اختاري طريقة الدفع --</option>
+<option value="cash">الدفع نقداً عند الاستلام</option>
+<option value="stc_pay">STC Pay</option>
+<option value="apple_pay">Apple Pay</option>
+<option value="mada">بطاقة مدى</option>
+</select>
+</p>
+
+<p>
+<span class="gold-label">كود الخصم (إن وُجد): </span>
+<br>
+<input type="text" name="discount_code" size="25">
+</p>
+
+<p>
+<input type="submit" value="إرسال الطلب الآن">
+</p>
+
+</form>
+
+</div>
+
+<div class="welcome-box">
+<h3>&#128204; تعليمات مهمة قبل الإرسال</h3>
+<ul>
+<li>تأكدي من صحة رقم جوالكِ لأنه وسيلة التواصل الرئيسية مع المندوبة.</li>
+<li>حددي عنوانكِ بدقة مع ذكر اسم الحي المختار من القائمة.</li>
+<li>في حال وجود حساسية من أي مكوّن، يُرجى ذكره في خانة الملاحظات.</li>
+<li>الطلب ملزم بعد الضغط على زر الإرسال، لا يمكن إلغاؤه بعد 5 دقائق.</li>
+</ul>
+</div>
+
+</div>
+
+<div class="footer">
+<p>&#169; 2025 مذاق الطبيعة المبتكر - جميع الحقوق محفوظة - الطائف، المملكة العربية السعودية</p>
+</div>
+
+</body>
+</html>

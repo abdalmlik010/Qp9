@@ -1,0 +1,248 @@
+body {
+    background-color: #0d1b2a;
+    font-family: "Georgia", serif;
+    color: #e8c97e;
+    text-align: right;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #e8c97e;
+    text-align: center;
+    background-color: #0a1520;
+}
+
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e8c97e;
+    text-align: right;
+}
+
+h3 {
+    font-family: "Georgia", serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f2c4b0;
+    text-align: right;
+}
+
+p {
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    color: #f2c4b0;
+    text-align: right;
+}
+
+a {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a1520;
+    background-color: #e8c97e;
+    text-align: center;
+}
+
+div.header {
+    background-color: #0a1520;
+    text-align: center;
+}
+
+div.navbar {
+    background-color: #112233;
+    text-align: right;
+}
+
+div.navbar a {
+    float: right;
+    background-color: #c9a84c;
+    color: #0a1520;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.content {
+    background-color: #0d1b2a;
+    text-align: right;
+}
+
+div.footer {
+    background-color: #0a1520;
+    text-align: center;
+}
+
+div.footer p {
+    color: #c9a84c;
+    font-size: 14px;
+    text-align: center;
+}
+
+table {
+    background-color: #112233;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    text-align: right;
+}
+
+th {
+    background-color: #c9a84c;
+    color: #0a1520;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+td {
+    color: #f2c4b0;
+    text-align: center;
+    background-color: #0d1b2a;
+}
+
+td.gold {
+    background-color: #c9a84c;
+    color: #0a1520;
+    font-weight: bold;
+}
+
+td.navy {
+    background-color: #112233;
+    color: #e8c97e;
+}
+
+td.rose {
+    background-color: #3d1c2b;
+    color: #f2c4b0;
+}
+
+ul {
+    text-align: right;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    color: #f2c4b0;
+}
+
+ol {
+    text-align: right;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    color: #f2c4b0;
+}
+
+li {
+    color: #f2c4b0;
+    font-size: 16px;
+    font-family: "Georgia", serif;
+}
+
+form {
+    background-color: #112233;
+    text-align: right;
+}
+
+input {
+    background-color: #0a1520;
+    color: #e8c97e;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+}
+
+select {
+    background-color: #0a1520;
+    color: #e8c97e;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+}
+
+option {
+    background-color: #112233;
+    color: #f2c4b0;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+}
+
+textarea {
+    background-color: #0a1520;
+    color: #e8c97e;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+}
+
+span.gold-label {
+    color: #e8c97e;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Georgia", serif;
+}
+
+span.rose-label {
+    color: #f2c4b0;
+    font-size: 15px;
+    font-family: "Georgia", serif;
+}
+
+div.clear {
+    float: right;
+}
+
+img {
+    text-align: center;
+}
+
+div.branch-box {
+    background-color: #112233;
+    text-align: right;
+    float: right;
+}
+
+div.branch-box h3 {
+    color: #e8c97e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.branch-box p {
+    color: #f2c4b0;
+    font-size: 15px;
+}
+
+div.welcome-box {
+    background-color: #112233;
+    text-align: right;
+}
+
+div.welcome-box h2 {
+    color: #e8c97e;
+}
+
+div.welcome-box p {
+    color: #f2c4b0;
+    font-size: 17px;
+}
+
+div.about-box {
+    background-color: #112233;
+    text-align: right;
+}
+
+div.calc-box {
+    background-color: #112233;
+    text-align: right;
+}
+
+div.calc-box h2 {
+    color: #e8c97e;
+}
+
+div.check-box {
+    background-color: #112233;
+    text-align: right;
+}
+
+div.check-box h2 {
+    color: #e8c97e;
+}

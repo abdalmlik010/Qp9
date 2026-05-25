@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>مذاق الطبيعة المبتكر - تأكيد بياناتكِ</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<h1>&#127807; مذاق الطبيعة المبتكر &#127807;</h1>
+<p>مطعمكِ الصحي الأول في مدينة الطائف</p>
+</div>
+
+<div class="navbar">
+<a href="branches.html">أين تجدنا</a>
+<a href="calc.html">الفاتورة الفورية</a>
+<a href="check.html">تأكيد بياناتكِ</a>
+<a href="order.html">تجهيز طلبكِ</a>
+<a href="menu.html">أطباقنا</a>
+<a href="about.html">قصتنا</a>
+<a href="index.html">بوابتنا</a>
+<div class="clear"></div>
+</div>
+
+<div class="content">
+
+<h2>&#10003; تأكيد بيانات الطلب</h2>
+<p>أهلاً بكِ في صفحة التحقق من بياناتكِ. يُرجى إدخال رقم طلبكِ أو اسمكِ للتأكد من استلام طلبكِ بشكل صحيح.</p>
+
+<div class="check-box">
+
+<h3>&#128269; التحقق من رقم الطلب</h3>
+<p>أدخلي رقم الطلب الذي وصلكِ عبر رسالة الجوال بعد إتمام عملية الطلب:</p>
+
+<p>
+<span class="gold-label">رقم الطلب: </span>
+<input type="text" id="order_number" size="30">
+</p>
+
+<p>
+<input type="button" value="تحقق من رقم الطلب" onclick="checkOrderNumber()">
+</p>
+
+</div>
+
+<div class="check-box">
+
+<h3>&#128100; التحقق من بيانات العميلة</h3>
+<p>أدخلي اسمكِ الكريم كما سجّلتِه في نموذج الطلب:</p>
+
+<p>
+<span class="gold-label">الاسم الكريم: </span>
+<input type="text" id="customer_name_check" size="30">
+</p>
+
+<p>
+<input type="button" value="تحقق من الاسم" onclick="checkCustomerName()">
+</p>
+
+</div>
+
+<div class="check-box">
+
+<h3>&#128222; التحقق من رقم الجوال</h3>
+<p>أدخلي رقم جوالكِ للتأكد من تسجيل بياناتكِ بشكل صحيح في النظام:</p>
+
+<p>
+<span class="gold-label">رقم الجوال: </span>
+<input type="text" id="phone_check" size="30">
+</p>
+
+<p>
+<input type="button" value="تحقق من رقم الجوال" onclick="checkPhoneNumber()">
+</p>
+
+</div>
+
+<div class="welcome-box">
+<h3>&#128204; ملاحظات هامة</h3>
+<ul>
+<li>في حال عدم استلامكِ رقم الطلب، يُرجى التواصل مع خدمة العملاء.</li>
+<li>يمكنكِ متابعة حالة طلبكِ بإدخال رقم الطلب في الخانة أعلاه.</li>
+<li>أوقات التوصيل تتراوح بين 30 و45 دقيقة داخل أحياء الطائف.</li>
+</ul>
+</div>
+
+</div>
+
+<div class="footer">
+<p>&#169; 2025 مذاق الطبيعة المبتكر - جميع الحقوق محفوظة - الطائف، المملكة العربية السعودية</p>
+</div>
+
+<script type="text/javascript">
+
+function checkOrderNumber() {
+    var orderNumber = document.getElementById("order_number").value;
+    if (orderNumber == "") {
+        window.alert("تنبيه: حقل رقم الطلب فارغ! يُرجى إدخال رقم طلبكِ قبل التحقق. يمكنكِ إيجاد رقم الطلب في رسالة الجوال التي وصلتكِ بعد إتمام الطلب.");
+    } else {
+        window.alert("شكراً لكِ. تم استلام رقم الطلب رقم: " + orderNumber + " - سيتم التحقق من بياناتكِ ومتابعة طلبكِ في أقرب وقت.");
+    }
+}
+
+function checkCustomerName() {
+    var customerName = document.getElementById("customer_name_check").value;
+    if (customerName == "") {
+        window.alert("تنبيه: حقل الاسم فارغ! يُرجى إدخال اسمكِ الكريم كما سجّلتِه في نموذج الطلب حتى نتمكن من التحقق من بياناتكِ بشكل صحيح.");
+    } else {
+        window.alert("مرحباً بكِ " + customerName + " - تم التعرف على بياناتكِ في نظامنا بنجاح. نشكركِ على اختيار مذاق الطبيعة المبتكر.");
+    }
+}
+
+function checkPhoneNumber() {
+    var phoneNumber = document.getElementById("phone_check").value;
+    if (phoneNumber == "") {
+        window.alert("تنبيه: حقل رقم الجوال فارغ! يُرجى إدخال رقم جوالكِ الذي سجّلتِه عند الطلب. رقم الجوال ضروري للتواصل معكِ بشأن طلبكِ.");
+    } else {
+        var firstDigit = phoneNumber.charAt(0);
+        if (firstDigit == "0") {
+            window.alert("تم التحقق من رقم الجوال: " + phoneNumber + " - البيانات مطابقة في نظامنا. ستتلقين رسالة تأكيد على هذا الرقم قريباً.");
+        } else {
+            window.alert("تنبيه: رقم الجوال الذي أدخلتِه لا يبدأ بالصفر. يُرجى التأكد من إدخال رقم الجوال السعودي بشكل صحيح (مثال: 05XXXXXXXX).");
+        }
+    }
+}
+
+</script>
+
+</body>
+</html>

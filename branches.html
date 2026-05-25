@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>مذاق الطبيعة المبتكر - أين تجدينا</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<h1>&#127807; مذاق الطبيعة المبتكر &#127807;</h1>
+<p>مطعمكِ الصحي الأول في مدينة الطائف</p>
+</div>
+
+<div class="navbar">
+<a href="branches.html">أين تجدنا</a>
+<a href="calc.html">الفاتورة الفورية</a>
+<a href="check.html">تأكيد بياناتكِ</a>
+<a href="order.html">تجهيز طلبكِ</a>
+<a href="menu.html">أطباقنا</a>
+<a href="about.html">قصتنا</a>
+<a href="index.html">بوابتنا</a>
+<div class="clear"></div>
+</div>
+
+<div class="content">
+
+<h2>&#128205; فروعنا في أحياء الطائف</h2>
+<p>نخدمكِ بكل حب وشغف في أربعة فروع منتشرة في أرقى أحياء مدينة الطائف الجميلة. اختاري أقرب فرع إليكِ أو اطلبي التوصيل المنزلي.</p>
+
+<div class="welcome-box">
+<p>&#9200; أوقات العمل في جميع الفروع: من الساعة 7 صباحاً حتى 11 مساءً - سبعة أيام في الأسبوع.</p>
+<p>&#128222; للتواصل والاستفسار: الرقم الموحد 920-NATURE (928873)</p>
+</div>
+
+<h3>&#127968; قائمة جميع فروعنا في الطائف</h3>
+
+<script type="text/javascript">
+
+var branch_names = new Array(4);
+branch_names[0] = "فرع حي شهار";
+branch_names[1] = "فرع حي الحوية";
+branch_names[2] = "فرع حي السداد";
+branch_names[3] = "فرع حي قروى";
+
+var branch_addresses = new Array(4);
+branch_addresses[0] = "شارع الأمير سلطان، حي شهار، الطائف - بجانب السوق الأسبوعي";
+branch_addresses[1] = "شارع الحوية الرئيسي، بالقرب من منتزه الحوية الطبيعي، الطائف";
+branch_addresses[2] = "طريق السداد، مقابل مجمع السداد التجاري، الطائف";
+branch_addresses[3] = "حي قروى، شارع الوادي الأخضر، الطائف - قرب المدرسة الثانوية";
+
+var branch_phones = new Array(4);
+branch_phones[0] = "0127-SHAHAR (742427)";
+branch_phones[1] = "0127-HAWIYA (429422)";
+branch_phones[2] = "0127-SIDAD (743233)";
+branch_phones[3] = "0127-QURWA (787929)";
+
+var branch_managers = new Array(4);
+branch_managers[0] = "الأستاذة نورة الشهراني";
+branch_managers[1] = "الأستاذة هيفاء الغامدي";
+branch_managers[2] = "الأستاذة سارة الزهراني";
+branch_managers[3] = "الأستاذة ريم القحطاني";
+
+var branch_delivery_fee = new Array(4);
+branch_delivery_fee[0] = 10;
+branch_delivery_fee[1] = 12;
+branch_delivery_fee[2] = 15;
+branch_delivery_fee[3] = 18;
+
+var branch_opening_year = new Array(4);
+branch_opening_year[0] = 2019;
+branch_opening_year[1] = 2020;
+branch_opening_year[2] = 2021;
+branch_opening_year[3] = 2022;
+
+document.write("<table width='95%'>");
+document.write("<tr>");
+document.write("<th>اسم الفرع</th>");
+document.write("<th>العنوان التفصيلي</th>");
+document.write("<th>رقم الهاتف</th>");
+document.write("<th>المديرة المسؤولة</th>");
+document.write("<th>رسوم التوصيل</th>");
+document.write("<th>سنة الافتتاح</th>");
+document.write("</tr>");
+
+for (var i = 0; i < 4; i++) {
+    document.write("<tr>");
+    document.write("<td class='gold'>" + branch_names[i] + "</td>");
+    document.write("<td class='navy'>" + branch_addresses[i] + "</td>");
+    document.write("<td class='rose'>" + branch_phones[i] + "</td>");
+    document.write("<td class='navy'>" + branch_managers[i] + "</td>");
+    document.write("<td class='gold'>" + branch_delivery_fee[i] + " ريال</td>");
+    document.write("<td class='rose'>" + branch_opening_year[i] + "</td>");
+    document.write("</tr>");
+}
+
+document.write("</table>");
+
+document.write("<br>");
+document.write("<h3>&#128270; معلومات إضافية عن كل فرع</h3>");
+
+for (var j = 0; j < 4; j++) {
+    document.write("<div class='branch-box'>");
+    document.write("<h3>" + branch_names[j] + "</h3>");
+    document.write("<p><span class='gold-label'>العنوان: </span><span class='rose-label'>" + branch_addresses[j] + "</span></p>");
+    document.write("<p><span class='gold-label'>الهاتف: </span><span class='rose-label'>" + branch_phones[j] + "</span></p>");
+    document.write("<p><span class='gold-label'>المديرة: </span><span class='rose-label'>" + branch_managers[j] + "</span></p>");
+    document.write("<p><span class='gold-label'>رسوم التوصيل: </span><span class='rose-label'>" + branch_delivery_fee[j] + " ريال</span></p>");
+    document.write("<p><span class='gold-label'>سنة الافتتاح: </span><span class='rose-label'>" + branch_opening_year[j] + "</span></p>");
+    document.write("</div>");
+    document.write("<br>");
+}
+
+var total_branches = 4;
+var total_delivery_coverage = "أحياء: شهار، الحوية، السداد، قروى";
+document.write("<p><span class='gold-label'>إجمالي فروعنا في الطائف: </span><span class='rose-label'>" + total_branches + " فروع</span></p>");
+document.write("<p><span class='gold-label'>نطاق التوصيل المنزلي يشمل: </span><span class='rose-label'>" + total_delivery_coverage + "</span></p>");
+
+</script>
+
+<div class="welcome-box">
+<h3>&#128204; معلومات مهمة لزائرتنا الكريمة</h3>
+<ul>
+<li>جميع الفروع توفر خدمة الاستلام الذاتي داخل الفرع أو التوصيل المنزلي.</li>
+<li>الفروع مجهزة بمقاعد مريحة ومساحات نظيفة لتناول الطعام داخل المطعم.</li>
+<li>تتوفر في جميع الفروع قوائم غذائية تفصيلية بالمكونات والسعرات الحرارية.</li>
+<li>نقبل الطلبات المسبقة للمناسبات والتجمعات النسائية في جميع فروعنا.</li>
+<li>متوفر موقف سيارات مجاني بجانب جميع الفروع.</li>
+</ul>
+</div>
+
+<h2>&#128338; أوقات الذروة وتوقعات وقت التوصيل</h2>
+
+<table width="90%">
+<tr>
+<th>وقت الطلب</th>
+<th>حالة الازدحام</th>
+<th>الوقت المتوقع للتوصيل</th>
+</tr>
+<tr>
+<td class="gold">7:00 - 10:00 صباحاً</td>
+<td class="rose">هادئ</td>
+<td class="navy">20 - 25 دقيقة</td>
+</tr>
+<tr>
+<td class="gold">12:00 - 2:00 ظهراً</td>
+<td class="rose">مزدحم</td>
+<td class="navy">40 - 50 دقيقة</td>
+</tr>
+<tr>
+<td class="gold">3:00 - 5:00 عصراً</td>
+<td class="rose">هادئ</td>
+<td class="navy">25 - 30 دقيقة</td>
+</tr>
+<tr>
+<td class="gold">7:00 - 9:00 مساءً</td>
+<td class="rose">مزدحم جداً</td>
+<td class="navy">45 - 60 دقيقة</td>
+</tr>
+<tr>
+<td class="gold">9:00 - 11:00 مساءً</td>
+<td class="rose">هادئ</td>
+<td class="navy">20 - 30 دقيقة</td>
+</tr>
+</table>
+
+</div>
+
+<div class="footer">
+<p>&#169; 2025 مذاق الطبيعة المبتكر - جميع الحقوق محفوظة - الطائف، المملكة العربية السعودية</p>
+</div>
+
+</body>
+</html>
