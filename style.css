@@ -29,6 +29,11 @@ h3 {
     color: #f2c4b0;
     text-align: right;
 }
+div.header h6 {
+    text-align: center;
+    color: #f2c4b0;
+    font-size: 16px;
+}
 
 p {
     font-family: "Georgia", serif;
